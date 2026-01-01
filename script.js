@@ -10,7 +10,7 @@ document.querySelector('button').addEventListener('click', () => {
   const PJ1 = new RegExp(/受か|合格|うか|ごうかく/);
   const PJ2 = new RegExp(/ません/);
   const PJ3 = new RegExp(/なかっ/);
-  const NJ1 = new RegExp(/落ち|不合格|おち|ふごうかく/);
+  const NJ1 = new RegExp(/落ち|不合格|おち|ふごうかく|滑|すべ/);
   //英語の正規表現
   const PE1 = new RegExp(/pass|succeed/);
   const NE1 = new RegExp(/disqualifi|rejected|fail|unsuccessful/)
